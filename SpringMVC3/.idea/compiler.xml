@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com.itheima" />
+        <module name="mybatis" />
+        <module name="SpringMVC-servlet" />
+        <module name="SpringMVC-response" />
+        <module name="SpringMVC-fileupload" />
+        <module name="springMVC_ssm" />
+        <module name="SpringMVC-异步" />
+        <module name="SpringMVC-exception" />
+        <module name="SpringMvc-request" />
+        <module name="SpringMVC-restful" />
+        <module name="springMVC-interceptor" />
+        <module name="selenium-java" />
+        <module name="SpringMVC3" />
+        <module name="springMVC-validator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo" target="8" />
+      <module name="dubbo-web" target="8" />
+      <module name="SpringMVC-requests" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

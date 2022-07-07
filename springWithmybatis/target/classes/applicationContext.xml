@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <context:component-scan base-package="com.itheima"/>
+
+    <!--开启aop注解-->
+    <aop:aspectj-autoproxy/>
+
+    <!--2.配置共性功能成功spring控制的资源-->
+    <bean id="runTimeMonitorAdvice" class="com.itheima.aop.RunTimeMonitorAdvice"/>
+
+    <!--加载数据库连接配置-->
+    <context:property-placeholder location="classpath:*.properties"/>
+    <!--加载数据源资源-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+
+    </bean>
+    <!--配置service作为spring的bea，注入dao-->
+    <bean id="accountService" class="AccountServiceImpl">
+        <property name="accountDao" ref="accountDao"/>
+    </bean>
+
+    <!--spring整合mubaties后控制的创建连接用的对象-->
+    <bean id = "" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="typeAliasesPackage" value="com.itheima.domain"/>
+    </bean>
+    <!--加载mybaties映射配置的扫描，将其作为spring的bean进行管理-->
+    <bean id ="" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.itheima.dao"/>
+    </bean>
+
+</beans>

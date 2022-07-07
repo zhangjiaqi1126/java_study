@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../SpringMVC-exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringMVC-exception/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringMVC-fileupload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringMVC-fileupload/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringMVC-response/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringMVC-response/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringMVC-restful/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringMVC-restful/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringMVC-servlet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringMVC-servlet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringMvc-request/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringMvc-request/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringMvc-异步/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../SpringMvc-异步/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../selenium-java/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../selenium-java/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springMVC-interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springMVC-interceptor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springMVC-validator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springMVC-validator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springMVC_ssm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../springMVC_ssm/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
